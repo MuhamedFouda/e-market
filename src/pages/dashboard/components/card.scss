@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cardd{
+    width: 15rem;
+    height: auto;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10%;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    &:hover{
+        border-color: rgb(134, 139, 0);
+        border: 2px dashed red;
+        transition-delay: 100ms;
+    }
+    img{
+        width: 15rem;
+        height: 10rem;
+    }
+
+    .card-body{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+    }
+
+}
+
+
